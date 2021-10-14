@@ -31,7 +31,7 @@ def get_regions(url, headers):
 
 def results(data, inicial_time):
     
-        print("Total records creation time only into dataframe, it don't include query time: \n" 
+        print("Total records creation time only into dataframe, it doesn't include query time: \n" 
             + str(data['Time'].sum()*1000)+" ms" )
         print("Average time to create a record in dataframe: " + str(data['Time'].mean()*1000)+" ms")
         print("Maximun time: " + str(data['Time'].max()*1000)+" ms")
