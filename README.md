@@ -12,3 +12,6 @@
 
 `pip install -r requirements.txt`
 
+### Run
+
+-  Execute file *main.py*
